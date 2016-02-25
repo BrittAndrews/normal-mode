@@ -48,19 +48,51 @@ a {
 	text-decoration: none;
 	color: black;
 	font-size: x-small;
+	color: #aaa;
 }
 
 
 .background img {
-	border: 5px solid purple;
-    /*position: fixed;*/
-    /*height: 100px;*/
     width: 100%;
 
 }
 
 
 
+.body_container {
+	margin-top: -250px;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+
+}
+
+
+.container1 {
+	/*float: left;*/
+	height: 50px;
+	width: 50px;
+	background-color: blue;
+	
+}
+
+
+.container2 {
+	/*float: left;*/
+	height: 50px;
+	width: 50px;
+	background-color: red;
+	
+}
+
+
+.container3 {
+	/*float: left;*/
+	height: 50px;
+	width: 50px;
+	background-color: green;
+
+}
 
 
 
