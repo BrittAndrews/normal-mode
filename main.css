@@ -32,7 +32,7 @@ nav ul {
 	overflow: hidden;
 	display: block;
 	background-color:black;
-	 position: fixed;
+	position: fixed;
   	top: 0;
   	left: 0;
   	z-index: 9999;
@@ -59,6 +59,7 @@ a {
 }
 
 
+/*contains all three boxes*/
 
 .body_container {
 	margin-top: -250px;
@@ -66,65 +67,73 @@ a {
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	
-
-}
-
-
-/*three colored boxes*/ 
-
-.container1 h1 {
-	width: 200px;
-	height: 150px;
-	background-color: green;
-	float: left;
-	display: inline;
-	color: white;
-
+	margin-left: auto;
+	margin-right: auto;
 	
 }
 
-
-.container2 h1 {
-	width: 200px;
-	height: 150px;
-	background-color: blue;
-	float: left;
-	display: inline;
-	color: white;
-	
+/*centers the three boxes*/
+div ul {
+	text-align: center;
 }
 
 
-.container3 h1 {
-	width: 200px;
-	height: 150px;
-	background-color: black;
-	float: left;
-	display: inline;
-	color: white;
+/*THE BOXES THEMSELVES*/ 
 
-}
-
-
-/*three text fields under colored boxes*/
-
-.container1 {
+.body_container li {
 	width: 200px;
 	background-color: gray;
-	float: left;
-	display: inline;
-
+	color: white;
+	display: inline-block;
 
 	
 }
 
 
-.container2 {
+/*COLOR BOX*/
+
+.colorheader1 {
+		background-color: green;
+		display: inline-block;
+		width: 100%;
+
+
+}
+
+.colorheader2{
+		background-color: purple;
+		display: inline-block;
+		width: 100%;
+}
+
+.colorheader3{
+		background-color: blue;
+		display: inline-block;
+		width: 100%;
+
+}
+
+
+
+/*three colored boxes individ containers*/
+
+/*.container1 {
 	width: 200px;
 	background-color: gray;
-	float: left;
-	display: inline;
+	display: inline-block;
+	text-align: center;
+	margin-right: 20px;
+	
+}*/
+
+
+/*.container2 {
+	width: 200px;
+	background-color: gray;
+	display: inline-block;
+	text-align: center;
+	margin-right: 20px;
+
 	
 }
 
@@ -132,25 +141,28 @@ a {
 .container3 {
 	width: 200px;
 	background-color: gray;
-	float: left;
-	display: inline;
+	display: inline-block;
+	text-align: center;
+	margin-right: 20px;
+
 
 }
+*/
 
 
+
+
+/*footer*/
 
 
 footer {
-    background-color:black;
-    color:white;
-    clear:both;
-    text-align:center;
+	position: absolute;
+    background-color: black;
+    text-align: center;
+    color: white;
     padding:5px;
-    position: bottom;
-  	bottom: 0px;
-  	margin-right: auto;
-  	margin-left: auto;
-  	width: 100%;
+	width: 100%;
+	top: bottom;
 }
 
 
